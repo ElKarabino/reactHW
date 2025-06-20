@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #141024;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.card_title {
+        font-family: Jost serif;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 160%;
+    }
+.card_price {
+        font-family: Jost serif;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 160%;
+}
+.card_school {
+        font-family: Jost serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+}
