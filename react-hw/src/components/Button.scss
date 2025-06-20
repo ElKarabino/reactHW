@@ -1,0 +1,21 @@
+.redButton {
+    width: 369px;
+    height: 77.58px;
+    background-color: #ff4343;
+    cursor: pointer;
+    font-family: Raleway;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    border:  0px;
+
+     &:hover {
+      background-color: #E71414;
+    }
+
+     &:active {
+       box-shadow: 0 0 20px rgba(255, 67, 67, 1);
+    }
+}
+
