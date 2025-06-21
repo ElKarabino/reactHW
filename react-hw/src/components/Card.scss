@@ -9,20 +9,31 @@
 }
 
 .card_title {
-        font-family: Jost serif;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 160%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
     }
 .card_price {
-        font-family: Jost serif;
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 160%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
 }
 .card_school {
-        font-family: Jost serif;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 160%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
+.card_button {
+    width: 280px;
+    height: 79px;
+    background-color: #D52027;
+    border: 0px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
 }
