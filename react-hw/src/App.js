@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from './components/Button';
 import { Card } from './components/Card';
+import { Input } from './components/Input';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         <Card price="15.000 ₽" school="УМК по робототетхнике "/ >
         <Card price="15.000 ₽" school="УМК по программированию "/ >
       </div>
+      <Input />
+      <Input isDisabled={true} />
+      <Input isError={true} />
     </div>
   );
 }
