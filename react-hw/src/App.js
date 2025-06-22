@@ -19,9 +19,6 @@ function App() {
         <Input isDisabled={true} />
         <Input isError={true} />
       </div>
-      <div>
-        <AlertList />
-      </div>
     </div>
   );
 }
