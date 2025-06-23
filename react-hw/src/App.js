@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Button } from './components/Button';
 import { Card } from './components/Card';
@@ -16,9 +16,10 @@ function App() {
       </div>
       <div>
         <Input />
-        <Input isDisabled={true} />
-        <Input isError={true} />
+        <Input isDisabled />
+        <Input isError />
       </div>
+      <AlertList />
     </div>
   );
 }

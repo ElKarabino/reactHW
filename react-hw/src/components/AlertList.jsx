@@ -1,24 +1,24 @@
 import { Alert } from "./Alert";
-import FifthIcon  from "./icons/fifth_icon";
-import  FirstIcon  from "./icons/first_icon";
-import  FourthIcon  from "./icons/fourth_icon";
-import  SecondIcon  from "./icons/second_icon";
-import  ThirdIcon  from "./icons/third_icon";
+import NotificationIcon  from "./icons/notification_icon";
+import WarningIcon  from "./icons/warning_icon";
+import InfoIcon  from "./icons/info_icon";
+import ErrorIcon  from "./icons/error_icon";
+import SuccessIcon  from "./icons/success_icon";
 
 export const AlertList = () => {
     const alerts = [
-    {id:1, message: "Loren Ipsum", color: "yellow", icon: {FirstIcon} },
-    {id:2, message: "Loren Ipsum", color: "red", icon: {SecondIcon} },
-    {id:3, message: "Loren Ipsum", color: "green", icon: {ThirdIcon} },
-    {id:4, message: "Loren Ipsum", color: "black", icon: {FourthIcon} },
-    {id:5, message: "Loren Ipsum", color: "blue", icon: {FifthIcon} },
+    {id:1, text: "Loren Ipsum", type: "warning", icon: <WarningIcon /> },
+    {id:2, text: "Loren Ipsum", type: "error", icon: <ErrorIcon /> },
+    {id:3, text: "Loren Ipsum", type: "success", icon: <SuccessIcon /> },
+    {id:4, text: "Loren Ipsum", type: "info", icon: <InfoIcon /> },
+    {id:5, text: "Loren Ipsum", type: "notification", icon: <NotificationIcon /> },
   ];
   return (
     <div>
-        {alerts.map(({ id, color, icon, text }) => (
+        {alerts.map(({ id, type, icon, text }) => (
         <Alert
           key={id}
-          color={color}
+          type={type}
           icon={icon}
           text={text}
         />

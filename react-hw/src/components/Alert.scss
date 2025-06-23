@@ -1,7 +1,30 @@
 .alert_wrapper {
     width: 500px;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px;
+}
+.alert_warning {
+    background-color: rgb(248, 248, 116);
+    background-color: yellow;
+}
+.alert_success {
+    background-color: rgb(80, 223, 80);
+    border-color: green;
+}
+.alert_error {
+    background-color: rgb(251, 81, 81);
+    border-color: red;
+}
+.alert_info {
+    background-color: rgb(161, 158, 158);
+    border-color: black;
+}
+.alert_notification {
+    background-color: rgb(98, 98, 244);
+    border-color: blue;
 }

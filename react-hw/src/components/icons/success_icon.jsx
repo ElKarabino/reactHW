@@ -1,4 +1,4 @@
-export const ThirdIcon = () => {
+const SuccessIcon = () => {
     return (
         <svg fill="#000000" width="20px" height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 
@@ -11,4 +11,4 @@ export const ThirdIcon = () => {
 </svg>
     )
 }
-export default ThirdIcon
+export default SuccessIcon
